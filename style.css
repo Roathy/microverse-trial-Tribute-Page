@@ -6,3 +6,21 @@
   background-color: rgb(228, 253, 225);
   text-align: center;
 }
+#img{
+  max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+figure {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+}
+
+figcaption {
+  display: block;
+}
