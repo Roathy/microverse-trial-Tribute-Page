@@ -1,18 +1,3 @@
-#main-header {
-  margin: auto;
-  padding: 15px;
-  font-family: 'Labrada', serif;
-  font-size: larger;
-  background-color: rgb(228, 253, 225);
-  text-align: center;
-}
-#img{
-  max-width: 100%;
-    display: block;
-    height: auto;
-    margin: 0 auto;
-}
-
 figure {
   display: block;
   margin-block-start: 1em;
@@ -22,5 +7,31 @@ figure {
 }
 
 figcaption {
+  margin-top: 6px;
   display: block;
+  text-align: center;
+}
+
+#main-header {
+  margin: auto;
+  margin-bottom: 6px;
+  padding: 15px;
+  font-family: 'Labrada', serif;
+  font-size: larger;
+  background-color: rgb(228, 253, 225);
+  text-align: center;
+}
+
+#img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+@media (min-width: 1250px) {
+  figure {
+    margin: auto;
+    width: 70%;
+  }
 }
