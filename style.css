@@ -12,6 +12,10 @@ figcaption {
   text-align: center;
 }
 
+img {
+  display: block;
+}
+
 #main-header {
   margin: auto;
   margin-bottom: 6px;
@@ -22,11 +26,10 @@ figcaption {
   text-align: center;
 }
 
-#img {
+#image {
   max-width: 100%;
-  display: block;
   height: auto;
-  margin: 0 auto;
+  align-self: center;
 }
 
 @media (min-width: 1250px) {
